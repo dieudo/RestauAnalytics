@@ -1,0 +1,43 @@
+---
+title: "Basic first step Model"
+author: "Dieudonne Ouedraogo"
+date: "1/25/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r }
+library(reshape2)
+library("e1071")
+WideCleanData<-read.csv("Restaurants_WideData.csv")
+
+colnames(WideCleanData)
+fit6_from5=lm(X6 ~ CUISINE.DESCRIPTION+CRITICAL.FLAG+BORO+X1+X2+X3+X4+X5,data=WideCleanData)
+summary(fit6_from5)
+#feat=c("CUISINE.DESCRIPTION","CRITICAL.FLAG","BORO","X1","X2","X3","X4","X5","X6")
+##Predict Y using Linear Model
+#predY <- predict (fit6_from5, WideCleanData[,feat])
+
+#Install Package
+#install.packages("hydroGOF")
+
+#Load Library
+library(hydroGOF)
+
+#Calculate RMSE 
+#RMSE=rmse(predY,WideCleanData$X6)
+#summary(fit6_from5)
+#Regression with SVM
+modelsvm = svm(X6~CUISINE.DESCRIPTION+CRITICAL.FLAG+BORO+X1+X2+X3+X4+X5,WideCleanData)
+modelsvm
+
+#Predict using SVM regression
+#predYsvm = predict(modelsvm, WideCleanData)
+#predYsvm
+```
+
