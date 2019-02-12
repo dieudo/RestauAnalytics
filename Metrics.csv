@@ -1,0 +1,6 @@
+Model,MSE,AvgScoreSquare,Error %
+R.Forest ,8.31,113.6,7.32
+L.Regression,26.32,113.6,23.17
+GBM ,23.7,113.6,20.86
+D.Trees,26.63,113.6,23.44
+Based Model,27.98,113.6,25
