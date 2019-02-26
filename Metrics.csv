@@ -1,6 +1,6 @@
-Model,MSE,AvgScoreSquare,Error %
-R.Forest ,8.31,113.6,7.32
-L.Regression,26.32,113.6,23.17
-GBM ,23.7,113.6,20.86
-D.Trees,26.63,113.6,23.44
-Based Model,27.98,113.6,25
+Model,AvgScoreSquare,Mean Squared Error Percentage,Mean Squared Error,Square Root of Error
+Random Forest ,113.6,4.13,4.69,2.03
+Linear Regression,113.6,4.45,5.06,2.11
+GBM ,113.6,12.33,14.01,3.51
+Decision Trees,113.6,15.24,17.31,3.9
+Baseline Model,113.6,32.86,37.33,5.73
