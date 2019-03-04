@@ -1,0 +1,6 @@
+Model,Mean Absolute Error,Average Scores,Avg Percentage
+Random Forest ,1.21,11.12,0.11
+Linear Regression,1.49,11.12,0.13
+GBM ,2.4,11.12,0.22
+Decision Trees,2.64,11.12,0.24
+Baseline Model,3.21,11.12,0.29
