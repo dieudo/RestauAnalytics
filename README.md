@@ -29,6 +29,10 @@ During Data cleaning, data transformations, data exploratory,  features engineer
 
 ![problem](problem.png)
 
+## The priority
+![priority](priority.png)
+
+
 ## Modeling
 
 This a regression problem as the violations score are numerical values.
@@ -36,7 +40,7 @@ Random forest followed by a rule-based algorithm.
 
 ## The final outcome and results
 
-![results](results.png)
+![Solution](Solution.png)
 
 ## The Web-app
 
