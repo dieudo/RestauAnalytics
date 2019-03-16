@@ -23,7 +23,7 @@ It required cleaning and processing :
 
 The restaurants are grouped, the time stamps are ranked, and new features are built using following values obtained by the restaurant during previous inspections.
 
-During Data cleaning, data transformations, data exploratory,  features engineering, data modeling, various data frames, and results are obtained and saved into csv files which could be found in this repository.
+During Data cleaning, data transformations, data exploratory,  features engineering, data modeling, various data frames, and results are obtained and saved into CSV files which could be found in this repository.
 
 ## Schema of the problem from the last value to the next value
 
