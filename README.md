@@ -27,7 +27,8 @@ During Data cleaning, data transformations, data exploratory,  features engineer
 
 ## Schema of the problem from the last value to the next value
 
-Any restaurant in regard to their next move(next score) could follow one of the path below. So the entire system could be synthetixes into this schema
+Any restaurant regarding their next move(next score) could follow one of the paths below. So the entire system could be synthesized into this schema
+
 
 ![problem](problem.png)
 
