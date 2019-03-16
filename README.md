@@ -21,7 +21,7 @@ https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-R
 
 https://dieudonne.shinyapps.io/RESTAUANALYTICS/
 
-## For comments and suggestions**
+## For comments and suggestions 
 
 dieudo2008@gmail.com 
 
