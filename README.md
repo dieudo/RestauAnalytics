@@ -27,18 +27,27 @@ During Data cleaning, data transformations, data exploratory,  features engineer
 
 ## Schema of the problem from the last value to the next value
 
+Any restaurant in regard to their next move(next score) could follow one of the path below. So the entire system could be synthetixes into this schema
+
 ![problem](problem.png)
 
 ## The priority
+
+Inspectors and stakeholders are more interested in visiting or taking action against "good" falling into "bad" scores. So their priorities are the schema below
+
+
 ![priority](priority.png)
 
 
 ## Modeling
 
-This a regression problem as the violations score are numerical values.
+We have a regression problem as the violations score are numerical values.
 Random forest followed by a rule-based algorithm. 
 
 ## The final outcome and results
+ 
+In the end, the process allows retrieving the  cases below
+
 
 ![Solution](Solution.png)
 
